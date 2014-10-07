@@ -58,7 +58,7 @@ module.exports = function (grunt) {
         },
         files: [{
             expand: true,
-            cwd: 'test/fixtures/shift_JIS',
+            cwd: 'test/fixtures/Shift_JIS',
             dest: 'tmp/UTF-8',
             src: [
               '*'
