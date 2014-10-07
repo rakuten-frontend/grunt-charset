@@ -1,19 +1,15 @@
-grunt-charset
-=============
+# grunt-charset [![Build Status](https://travis-ci.org/rakuten-frontend/grunt-charset.svg?branch=master)](https://travis-ci.org/rakuten-frontend/grunt-charset)
 
 > Convert text encoding and replace charset code
 
-Overview
---------
+## Overview
 This is a Grunt plugin for converting charset of multiple file types.
 grunt-charset operates 2 things.
 
 * Convert text encoding using [iconv-lite](https://github.com/ashtuchkin/iconv-lite).
 * Replace code of charset setting. (e.g. `<meta charset="UTF-8">` to `<meta charset="Shift_JIS">`)
 
-Getting Started
----------------
-
+## Getting Started
 If you are new to Grunt, you will find a lot of answers to your questions in their [getting started guide](http://gruntjs.com/getting-started).  
 Install this plugin with this command:
 
@@ -27,9 +23,7 @@ Once the plugin has been installed, it may be enabled inside your "Gruntfile.js"
 grunt.loadNpmTasks('grunt-charset');
 ```
 
-The "charset" task
-------------------
-
+## The "charset" task
 In your project's Gruntfile, add a section named `charset` to the data object passed into `grunt.initConfig()`.
 
 ```js
@@ -127,7 +121,5 @@ options: {
 }
 ```
 
-License
--------
-
+## License
 Copyright (c) 2014 Rakuten, Inc. Licensed under the [MIT License](http://opensource.org/licenses/MIT).
