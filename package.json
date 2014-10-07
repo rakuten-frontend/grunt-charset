@@ -1,0 +1,53 @@
+{
+  "name": "grunt-charset",
+  "version": "0.1.3",
+  "description": "Convert text encoding and replace charset code",
+  "author": {
+    "name": "Rakuten, Inc."
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rakuten-frontend/grunt-charset/blob/master/LICENSE-MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rakuten-frontend/grunt-charset.git"
+  },
+  "hopmepage": "https://github.com/rakuten-frontend/grunt-charset",
+  "bugs": {
+    "url": "https://github.com/rakuten-frontend/grunt-charset/issues"
+  },
+  "keywords": [
+    "gruntplugin",
+    "charset",
+    "encoding",
+    "iconv"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "files": [
+    "tasks",
+    "LICENSE-MIT"
+  ],
+  "dependencies": {
+    "iconv-lite": "^0.4.4",
+    "lodash": "^2.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "^0.4.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt": "^0.4.5",
+    "jshint-stylish": "^1.0.0",
+    "load-grunt-tasks": "^0.6.0"
+  }
+}
