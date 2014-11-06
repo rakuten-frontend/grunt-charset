@@ -1,4 +1,4 @@
-# grunt-charset [![NPM Version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
+# grunt-charset [![NPM Version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][deps-image]][deps-url]
 
 > Convert text encoding and replace charset code
 
@@ -134,3 +134,5 @@ Copyright (c) 2014 Rakuten, Inc. Licensed under the [MIT License](http://opensou
 [npm-url]: https://www.npmjs.org/package/grunt-charset
 [travis-image]: https://img.shields.io/travis/rakuten-frontend/grunt-charset/master.svg?style=flat
 [travis-url]: https://travis-ci.org/rakuten-frontend/grunt-charset
+[deps-image]: http://img.shields.io/david/rakuten-frontend/grunt-charset.svg?style=flat
+[deps-url]: https://david-dm.org/rakuten-frontend/grunt-charset
