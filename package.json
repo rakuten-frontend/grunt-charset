@@ -37,7 +37,7 @@
     "CHANGELOG"
   ],
   "dependencies": {
-    "iconv-lite": "^0.4.4",
+    "iconv-lite": "^0.4.7",
     "lodash": "^3.5.0"
   },
   "peerDependencies": {
