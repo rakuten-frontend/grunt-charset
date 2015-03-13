@@ -1,3 +1,7 @@
+v0.2.1:
+  date: 2015-03-13
+  changes:
+    - Support Node.js 0.12.
 v0.2.0:
   date: 2014-10-07
   changes:
