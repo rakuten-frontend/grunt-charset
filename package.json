@@ -33,7 +33,8 @@
   },
   "files": [
     "tasks",
-    "LICENSE-MIT"
+    "LICENSE",
+    "CHANGELOG"
   ],
   "dependencies": {
     "iconv-lite": "^0.4.4",

@@ -1,6 +1,10 @@
-# grunt-charset [![NPM Version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][deps-image]][deps-url]
+# grunt-charset
 
 > Convert text encoding and replace charset code
+
+[![NPM Version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Dependency Status][deps-image]][deps-url]
 
 ## Overview
 This is a Grunt plugin for converting charset of multiple file types.
@@ -121,14 +125,8 @@ options: {
 }
 ```
 
-## Contributing
-Now we are considering our contribution policy in the future development.
-We will decide the policy in the near future.  
-After that, we will accept your contribution including issue reports.
-Thank you.
-
 ## License
-Copyright (c) 2014 Rakuten, Inc. Licensed under the [MIT License](http://opensource.org/licenses/MIT).
+Copyright (c) 2014-2015 Rakuten, Inc. Licensed under the [MIT License](LICENSE).
 
 [npm-image]: https://img.shields.io/npm/v/grunt-charset.svg?style=flat
 [npm-url]: https://www.npmjs.org/package/grunt-charset
