@@ -29,7 +29,7 @@
   "files": [
     "tasks",
     "LICENSE",
-    "CHANGELOG"
+    "CHANGELOG.md"
   ],
   "dependencies": {
     "iconv-lite": "^0.4.7",
