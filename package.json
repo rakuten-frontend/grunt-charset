@@ -27,9 +27,7 @@
     "test": "grunt test --verbose"
   },
   "files": [
-    "tasks",
-    "LICENSE",
-    "CHANGELOG.md"
+    "tasks"
   ],
   "dependencies": {
     "iconv-lite": "^0.4.7",
