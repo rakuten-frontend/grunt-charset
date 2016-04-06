@@ -1,13 +1,11 @@
 'use strict';
 
-module.exports = function (grunt) {
-  var path = require('path');
-  var fs = require('fs');
-  var iconv = require('iconv-lite');
-  var _ = require('lodash');
+var path = require('path');
+var fs = require('fs');
+var iconv = require('iconv-lite');
+var _ = require('lodash');
 
-  // Please see the Grunt documentation for more information regarding task
-  // creation: http://gruntjs.com/creating-tasks
+module.exports = function (grunt) {
   grunt.registerMultiTask('charset', 'Convert text encoding and replace charset code', function () {
     // Merge task-specific and/or target-specific options with these defaults.
     var defaults = {

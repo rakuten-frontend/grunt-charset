@@ -1,8 +1,8 @@
 # grunt-charset
 
-> Convert text encoding and replace charset code
+> Convert text encoding and replace charset code.
 
-[![NPM Version][npm-image]][npm-url]
+[![npm Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][deps-image]][deps-url]
 
@@ -13,12 +13,12 @@ grunt-charset operates 2 things.
 * Convert text encoding using [iconv-lite](https://github.com/ashtuchkin/iconv-lite).
 * Replace code of charset setting. (e.g. `<meta charset="UTF-8">` to `<meta charset="Shift_JIS">`)
 
-## Getting Started
-If you are new to Grunt, you will find a lot of answers to your questions in their [getting started guide](http://gruntjs.com/getting-started).  
+## Getting started
+If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting started](http://gruntjs.com/getting-started) guide.  
 Install this plugin with this command:
 
-```shell
-npm install grunt-charset --save-dev
+```sh
+$ npm install grunt-charset --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your "Gruntfile.js" with this line of JavaScript:
@@ -59,7 +59,7 @@ Type: 'String'
 Default: `UTF-8`
 
 Encoding of source charset.
-Supported encodings are same as [iconv-lite](https://github.com/ashtuchkin/iconv-lite#supported-encodings) module.
+See [supported encodings in iconv-lite](https://github.com/ashtuchkin/iconv-lite/wiki/Supported-Encodings).
 
 #### to
 Type: 'String'  
@@ -93,9 +93,9 @@ fileTypes: {
 }
 ```
 
-### Usage Examples
+### Examples
 
-#### Target File Extensions
+#### Target file extensions
 Add target extensions of code replacement.
 This setting replaces `<meta charset="">` in ".shtml" files as well as ".html".
 
@@ -109,9 +109,9 @@ options: {
 }
 ```
 
-#### Custom File Types
-You can add a new file type using object notation.
-In this example, `<?xml ...?>` code in ".xml" files are replaced.
+#### Custom file types
+You can add custom replacement config.
+In this case, `<?xml ...?>` code blocks in ".xml" files will be replaced.
 
 ```js
 options: {
@@ -126,11 +126,12 @@ options: {
 ```
 
 ## License
-Copyright (c) 2014-2016 Rakuten, Inc. Licensed under the [MIT License](LICENSE).
+Copyright (c) 2014-2016 Rakuten, Inc.
+Licensed under the [MIT License](LICENSE).
 
-[npm-image]: https://img.shields.io/npm/v/grunt-charset.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/grunt-charset.svg
 [npm-url]: https://www.npmjs.org/package/grunt-charset
-[travis-image]: https://img.shields.io/travis/rakuten-frontend/grunt-charset/master.svg?style=flat
+[travis-image]: https://travis-ci.org/rakuten-frontend/grunt-charset.svg?branch=master
 [travis-url]: https://travis-ci.org/rakuten-frontend/grunt-charset
-[deps-image]: http://img.shields.io/david/rakuten-frontend/grunt-charset.svg?style=flat
+[deps-image]: https://david-dm.org/rakuten-frontend/grunt-charset.svg
 [deps-url]: https://david-dm.org/rakuten-frontend/grunt-charset

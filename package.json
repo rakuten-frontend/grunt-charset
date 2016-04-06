@@ -1,7 +1,7 @@
 {
   "name": "grunt-charset",
   "version": "0.2.1",
-  "description": "Convert text encoding and replace charset code",
+  "description": "Convert text encoding and replace charset code.",
   "author": {
     "name": "Rakuten, Inc."
   },
@@ -24,7 +24,8 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "test": "grunt test --verbose"
+    "test": "grunt test --verbose",
+    "grunt": "grunt"
   },
   "main": "tasks/charset.js",
   "files": [

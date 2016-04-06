@@ -1,10 +1,8 @@
 'use strict';
 
 module.exports = function (grunt) {
-  // load all npm grunt tasks
   require('load-grunt-tasks')(grunt);
 
-  // Project configuration.
   grunt.initConfig({
     // ESLint
     eslint: {
@@ -15,12 +13,12 @@ module.exports = function (grunt) {
       ]
     },
 
-    // Before generating any new files, remove any previously-created files.
+    // Clean up
     clean: {
       tests: ['tmp']
     },
 
-    // Configuration to be run (and then tested).
+    // "charset" task for tests
     charset: {
       defaultOptions: {
         files: {
@@ -61,13 +59,12 @@ module.exports = function (grunt) {
       }
     },
 
-    // Unit tests.
+    // Unit tests
     nodeunit: {
       tests: ['test/*_test.js']
     }
   });
 
-  // Actually load this plugin's task(s).
   grunt.loadTasks('tasks');
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
