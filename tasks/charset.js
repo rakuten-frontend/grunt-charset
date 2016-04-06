@@ -1,7 +1,6 @@
 'use strict';
 
 module.exports = function (grunt) {
-
   var path = require('path');
   var fs = require('fs');
   var iconv = require('iconv-lite');
@@ -10,7 +9,6 @@ module.exports = function (grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
   grunt.registerMultiTask('charset', 'Convert text encoding and replace charset code', function () {
-
     // Merge task-specific and/or target-specific options with these defaults.
     var defaults = {
       from: 'UTF-8',
@@ -43,7 +41,6 @@ module.exports = function (grunt) {
     // Iterate over all specified file groups.
     this.files.forEach(function (filePair) {
       filePair.src.forEach(function (filepath) {
-
         var extension = path.extname(filepath);
         var readBuffer = fs.readFileSync(filepath);
         var src = iconv.decode(readBuffer, options.from);
@@ -68,9 +65,7 @@ module.exports = function (grunt) {
 
         // Print a success message.
         grunt.log.writeln('File "' + filePair.dest + '" created.');
-
       });
     });
   });
-
 };
