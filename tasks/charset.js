@@ -4,6 +4,7 @@ var path = require('path');
 var fs = require('fs');
 var iconv = require('iconv-lite');
 var _ = require('lodash');
+var chalk = require('chalk');
 
 module.exports = function (grunt) {
   grunt.registerMultiTask('charset', 'Convert text encoding and replace charset code', function () {
@@ -62,7 +63,7 @@ module.exports = function (grunt) {
         grunt.file.write(filePair.dest, writeBuffer);
 
         // Print a success message.
-        grunt.log.writeln('File "' + filePair.dest + '" created.');
+        grunt.log.writeln('File ' + chalk.cyan(filePair.dest + ' (' + options.to + ')') + ' created.');
       });
     });
   });
