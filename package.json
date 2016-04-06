@@ -33,9 +33,6 @@
     "iconv-lite": "^0.4.7",
     "lodash": "^4.8.2"
   },
-  "peerDependencies": {
-    "grunt": ">=0.4.0"
-  },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
