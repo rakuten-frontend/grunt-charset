@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0 (2016-04-06)
+- Support Grunt v1.0.0.
+- Show encodings in grunt log.
+
 ## 0.2.1 (2015-03-13)
 - Support Node.js 0.12.
 
