@@ -47,5 +47,11 @@
   },
   "eslintConfig": {
     "extends": "xo-space"
+  },
+  "greenkeeper": {
+    "ignore": [
+      "eslint",
+      "grunt-eslint"
+    ]
   }
 }
