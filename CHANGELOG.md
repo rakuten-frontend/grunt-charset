@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 (2017-02-24)
+- Update suppoted Node.js versions according to [LTS schedule](https://github.com/nodejs/LTS).
+  - Support Node.js 7.
+  - Unsupport Node.js 0.10, 0.12 and 5.
+
 ## 1.0.0 (2016-04-06)
 - Support Grunt v1.0.0.
 - Show encodings in grunt log.
