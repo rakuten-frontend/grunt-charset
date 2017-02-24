@@ -1,6 +1,6 @@
 {
   "name": "grunt-charset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert text encoding and replace charset code.",
   "author": {
     "name": "Rakuten, Inc."
